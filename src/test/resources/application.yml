@@ -1,0 +1,14 @@
+spring:
+  ldap:
+    urls: ldap://localhost:10389
+    base: ou=test
+    username: uid=admin,ou=system
+    password: "daami+dYrI4abo8SjqR57w=="
+
+domain:
+  user: username
+  password: "cXRmmH67QY9DxbHrlSrDhw=="
+  password2: "cXRmmH67QY9DxbHrlSrDhw=="
+  password3: "cXRmmH67QY9DxbHrlSrDhw=="
+  unencrypted-password: "123456"
+  unencrypted-password1: "123456"

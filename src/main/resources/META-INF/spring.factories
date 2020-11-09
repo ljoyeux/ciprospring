@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=fr.devlogic.encrypt.spring.impl.EncryptedPropertyConfiguration
