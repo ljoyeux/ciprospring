@@ -11,9 +11,11 @@ import java.util.stream.Collectors;
 
 class AgentTest {
     @Test
-    void agent() {
+    void agent() throws ClassNotFoundException {
+        Class.forName(ProprieteChiffree.class.getName()); // force class loading
+
         Set<Class> metaAnnotation = new ArrayList<>(EncryptedPropertyAgent.getAllLoadedClasses()).stream()
-                .map(c-> {
+                .map(c -> {
                     try {
                         return Class.forName(c);
                     } catch (ClassNotFoundException | NoClassDefFoundError ex) {
