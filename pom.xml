@@ -20,7 +20,7 @@
         <java.version>8</java.version>
         <asm.version>8.0.1</asm.version>
         <byte-buddy-agent.version>1.11.12</byte-buddy-agent.version>
-        <jacoco.version>0.8.6</jacoco.version>
+        <jacoco.version>0.8.10</jacoco.version>
     </properties>
 
 
